@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mpesa Foundation Academy Compound Map</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .map-container {
+            position: relative;
+            width: 80%;
+            height: 600px;
+            border: 2px solid #007bff;
+            margin: 20px auto;
+            background-color: #e6f7ff;
+        }
+        .building {
+            position: absolute;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            background-color: #ffffff;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+        .building:hover {
+            transform: scale(1.05);
+            border-color: #0056b3;
+        }
+        .admin { top: 20px; left: 50%; transform: translateX(-50%); width: 150px; }
+        .classroom { top: 20px; left: 50px; width: 30px; }
+        .library { top: 100px; left: 200px; width: 120px; }
+        .computer-lab { top: 100px; left: 370px; width: 120px; }
+        .science-lab { top: 250px; left: 200px; width: 120px; }
+        .art-room { top: 250px; left: 370px; width: 120px; }
+        .dining-hall { top: 400px; left: 50%; transform: translateX(-50%); width: 150px; }
+        .dormitories { top: 350px; left: 20px; width: 120px; }
+        .sports-field { top: 350px; left: 200px; width: 290px; height: 160px; }
+        .parking { top: 250px; left: 10px; width: 150px; }
+        .garden { top: 400px; left: 370px; width: 120px; }
+    </style>
+</head>
+<body>
+
+    <h1>Mpesa Foundation Academy Compound Map</h1>
+    <div class="map-container">
+        <div class="building admin">Administration Office</div>
+        <div class="building classroom">Classrooms</div>
+        <div class="building library">Library</div>
+        <div class="building computer-lab">Computer Lab</div>
+        <div class="building science-lab">Science Lab</div>
+        <div class="building art-room">Art Room</div>
+        <div class="building dining-hall">Dining Hall</div>
+        <div class="building dormitories">Dormitories</div>
+        <div class="building sports-field">Sports Field</div>
+        <div class="building parking">Parking Area</div>
+        <div class="building garden">Gardens</div>
+    </div>
+
+</body>
+</html>
